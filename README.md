@@ -51,17 +51,17 @@ The goal is to generate actionable business insights, visualise them through das
    - Which states offer growth potential based on GDP, demographics, and geography?  
 
 3. **Tools Used**  
-   - **Power Query** → Data cleaning, transformation.  
+   - **Python (Pandas)** → Data cleaning, transformation.  
+   - **SQL (SSMS, Azure Data Studio)** → Querying, aggregation, and exploratory analysis to uncover insights. 
    - **Power BI** → Interactive dashboard creation and storytelling visualisation.  
-   - **Markdown / PDF** → Documentation and reporting.  
 
 ---
 
 ## 📊 Key Insights
 
 - **Overall Ride Activity**  
-  - Over **650K trips** recorded in the dataset.  
-  - **New York, New Jersey, and California** dominate trip volume but show signs of **market saturation**.  
+  - Over **1000 trips** recorded in the dataset.  
+  - **North California** dominate trip volume but show signs of **market saturation**.  
 
 - **Time & Demand Patterns**  
   - Clear peaks: **07:00–09:00** and **17:00–19:00** (commute hours).  
@@ -84,15 +84,8 @@ The goal is to generate actionable business insights, visualise them through das
 ---
 
 ## 📈 Dashboard & Visualisation
-
-- **Power BI dashboard (PDF)**: highlights demand trends and expansion opportunities.  
-- **Preview (static image):**  
-  ![Dashboard Preview](assets/uber_dashboard.png)  
+- **Power BI dashboard**: highlights demand trends and expansion opportunities.  
 
 ---
 
-## ⚙️ Usage
-
-- Open `Uber_Ride_Expansion.pbix` with **Power BI Desktop**.  
-- Explore the **PDF dashboard export** for static insights.  
-- Dataset available on [Kaggle](https://www.kaggle.com/datasets/bhanupratapbiswas/uber-data-analysis).  
+ 
